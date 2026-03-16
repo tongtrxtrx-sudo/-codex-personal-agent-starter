@@ -1,0 +1,5 @@
+interface:
+  display_name: "文件整理"
+  short_description: "先预演，再批量整理本地目录"
+policy:
+  allow_implicit_invocation: false
