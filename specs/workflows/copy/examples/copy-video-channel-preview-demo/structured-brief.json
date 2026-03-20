@@ -1,0 +1,49 @@
+{
+  "scene_type": "社交媒体内容帖",
+  "platforms": [
+    "视频号"
+  ],
+  "campaign_name": "周末手冲体验日",
+  "campaign_type": "活动预热",
+  "content_topic": "周末手冲体验日视频号预告",
+  "content_goal": "为线下手冲体验日做微信生态预热",
+  "core_message": "周末来店里轻松体验一场手冲入门",
+  "persona": "社区精品咖啡店主理人",
+  "date_range": "3 月 21 日至 3 月 22 日，每天下午 2 点至 5 点",
+  "deadline": "3 月 20 日晚 8 点",
+  "price": "19.9 元",
+  "audience": [
+    "附近上班族",
+    "咖啡爱好者"
+  ],
+  "core_selling_points": [
+    "轻松体验",
+    "手冲入门",
+    "微信生态传播"
+  ],
+  "tone": [
+    "轻松",
+    "生活化",
+    "不过度促销"
+  ],
+  "must_include": {
+    "price": "19.9 元",
+    "deadline": "3 月 20 日晚 8 点报名截止",
+    "contact": "微信 coffeehouse01",
+    "location": null,
+    "cta": "现在加微信报名"
+  },
+  "forbidden": [
+    "硬广式促销",
+    "过度喊口号"
+  ],
+  "channels": [
+    "video_channel_post"
+  ],
+  "notes": "这是视频号活动预热，不需要写成长文，重点是轻松、自然和清楚。",
+  "length_preference": "短内容",
+  "cta_level": "中",
+  "missing_info": [
+    "门店详细地址"
+  ]
+}

@@ -31,6 +31,8 @@
 - 对非简单任务，遵循：inspect -> brainstorm -> confirm direction -> plan -> implement -> verify。
 - 只读取当前任务真正需要的文件。
 - 在写新逻辑前，先检查是否已有 skill 或脚本可复用。
+- 默认优先使用顶层 workflow 快速出结果；当质量要求更高、需要细调语气结构或逐步控制时，再拆到底层 skills 逐步精修。
+- workflow 负责稳定产出完整链路，skill 负责单步能力复用与局部高质量迭代。
 - 涉及长期偏好时读取 `memory/profile.md`。
 - 涉及当前阶段重点时读取 `memory/current_focus.md`。
 - 用户主要想“记下来”时，优先写入 `inbox/capture.md`。

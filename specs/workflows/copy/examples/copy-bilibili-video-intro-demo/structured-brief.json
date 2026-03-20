@@ -1,0 +1,47 @@
+{
+  "scene_type": "娱乐内容 / 视频简介",
+  "platforms": [
+    "B站"
+  ],
+  "campaign_name": null,
+  "campaign_type": "视频内容包装",
+  "content_topic": "周末一个人去上海独立咖啡馆慢游",
+  "content_goal": "输出适合 B站 的视频标题和简介",
+  "core_message": "一个人慢慢逛、喝咖啡、看街景的轻松感",
+  "persona": "喜欢慢节奏生活记录的城市漫游博主",
+  "date_range": null,
+  "deadline": null,
+  "price": null,
+  "audience": [
+    "喜欢城市漫游和咖啡馆内容的人"
+  ],
+  "core_selling_points": [
+    "独自慢游",
+    "独立咖啡馆",
+    "城市轻松感"
+  ],
+  "tone": [
+    "自然",
+    "有氛围感",
+    "不过度煽情"
+  ],
+  "must_include": {
+    "price": null,
+    "deadline": null,
+    "contact": null,
+    "location": "上海",
+    "cta": "欢迎留言交流你喜欢的独立咖啡馆"
+  },
+  "forbidden": [
+    "标题党",
+    "过度矫情",
+    "空泛文艺腔"
+  ],
+  "channels": [
+    "bilibili_video_intro"
+  ],
+  "notes": "这是 B站 内容包装，重点是标题和简介，不是活动推广。",
+  "length_preference": "简洁但有氛围",
+  "cta_level": "弱互动",
+  "missing_info": []
+}

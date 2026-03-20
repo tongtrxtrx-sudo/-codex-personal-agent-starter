@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CopyWorkflowResponse",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "scene": {
+      "type": "string"
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "display_mode": {
+      "type": "string",
+      "enum": [
+        "default",
+        "expanded"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "final_recommended_copy": {
+      "type": "object"
+    },
+    "backup_versions": {
+      "type": "object"
+    },
+    "human_check_items": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "debug": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "scene",
+    "platforms",
+    "purpose",
+    "display_mode",
+    "missing_fields",
+    "final_recommended_copy",
+    "backup_versions",
+    "human_check_items"
+  ]
+}

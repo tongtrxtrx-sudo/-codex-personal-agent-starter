@@ -1,0 +1,35 @@
+{
+  "subject": "{{画面主体}}",
+  "campaign_goal": "{{活动目标}}",
+  "audience": [
+    "{{目标受众}}"
+  ],
+  "scene": "{{核心场景}}",
+  "style_keywords": [
+    "{{风格关键词1}}",
+    "{{风格关键词2}}"
+  ],
+  "brand_tone": [
+    "{{品牌调性}}"
+  ],
+  "primary_colors": [
+    "{{主色建议}}"
+  ],
+  "must_show_elements": [
+    "{{必须出现元素}}"
+  ],
+  "text_overlay": {
+    "headline": "{{主标题}}",
+    "subheadline": "{{副标题或补充信息}}",
+    "facts_to_keep": [
+      "{{必须保留事实}}"
+    ]
+  },
+  "negative_constraints": [
+    "{{不希望出现的风格或元素}}"
+  ],
+  "format_notes": "{{版式或尺寸说明}}",
+  "missing_info": [
+    "{{缺失信息}}"
+  ]
+}

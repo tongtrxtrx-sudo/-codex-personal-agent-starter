@@ -1,0 +1,47 @@
+{
+  "scene_type": "{{任务场景}}",
+  "platforms": [
+    "{{平台或渠道}}"
+  ],
+  "campaign_name": "{{活动名称}}",
+  "campaign_type": "{{活动类型}}",
+  "content_topic": "{{内容主题}}",
+  "content_goal": "{{内容目标}}",
+  "core_message": "{{核心观点或核心信息}}",
+  "persona": "{{账号或品牌人设}}",
+  "date_range": "{{活动时间}}",
+  "deadline": "{{报名截止时间}}",
+  "price": "{{价格或优惠信息}}",
+  "audience": [
+    "{{目标人群}}"
+  ],
+  "core_selling_points": [
+    "{{核心卖点1}}",
+    "{{核心卖点2}}"
+  ],
+  "tone": [
+    "{{语气要求}}"
+  ],
+  "must_include": {
+    "price": "{{必须保留的价格信息}}",
+    "deadline": "{{必须保留的截止时间}}",
+    "contact": "{{联系方式}}",
+    "location": "{{地点或渠道}}",
+    "cta": "{{行动指令}}"
+  },
+  "forbidden": [
+    "{{禁用表达}}"
+  ],
+  "channels": [
+    "poster_title",
+    "moments_post",
+    "group_notice",
+    "sms"
+  ],
+  "notes": "{{补充说明}}",
+  "length_preference": "{{长度偏好}}",
+  "cta_level": "{{引导强度}}",
+  "missing_info": [
+    "{{缺失字段}}"
+  ]
+}

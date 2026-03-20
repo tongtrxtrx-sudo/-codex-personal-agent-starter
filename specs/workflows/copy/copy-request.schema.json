@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CopyWorkflowRequest",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "raw_input": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scene": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "activity_promo",
+        "internal_notice",
+        "training_notice",
+        "service_reminder",
+        "meeting_notice",
+        "weekly_report",
+        "meeting_followup",
+        "hiring",
+        "client_followup",
+        "social_post",
+        "video_packaging",
+        null
+      ]
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "xiaohongshu",
+          "moments",
+          "weibo",
+          "douyin",
+          "zhihu",
+          "bilibili",
+          "wechat_article",
+          "video_channel",
+          "kuaishou",
+          "wechat_work",
+          "email",
+          "sms",
+          "group_notice"
+        ]
+      },
+      "default": []
+    },
+    "purpose": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "notify_sync",
+        "promote_convert",
+        "share_express",
+        "interact_spread",
+        "record_package",
+        null
+      ]
+    },
+    "display_mode": {
+      "type": "string",
+      "enum": [
+        "default",
+        "expanded"
+      ],
+      "default": "default"
+    },
+    "output_format": {
+      "type": "string",
+      "enum": [
+        "markdown",
+        "json"
+      ],
+      "default": "markdown"
+    }
+  },
+  "required": [
+    "raw_input"
+  ]
+}

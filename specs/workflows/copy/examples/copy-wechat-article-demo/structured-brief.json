@@ -1,0 +1,48 @@
+{
+  "scene_type": "社交媒体内容帖",
+  "platforms": [
+    "wechat_article"
+  ],
+  "campaign_name": null,
+  "campaign_type": "方法分享",
+  "content_topic": "中小企业做 AI，为什么要先从 skill 开始",
+  "content_goal": "输出一篇适合公众号的 AI 方法文章",
+  "core_message": "先 skill，再 workflow，最后 agent",
+  "persona": "懂落地、不过度炫技的 AI 工作流实践者",
+  "date_range": null,
+  "deadline": null,
+  "price": null,
+  "audience": [
+    "中小企业老板",
+    "管理者"
+  ],
+  "core_selling_points": [
+    "skill 是最小复用单元",
+    "workflow 要建立在稳定动作上",
+    "agent 不该一开始就上"
+  ],
+  "tone": [
+    "清楚",
+    "实用",
+    "不过度技术化"
+  ],
+  "must_include": {
+    "price": null,
+    "deadline": null,
+    "contact": null,
+    "location": null,
+    "cta": "可引导继续交流，但不硬推服务"
+  },
+  "forbidden": [
+    "空泛 AI 口号",
+    "过度技术炫耀",
+    "把 agent 神化"
+  ],
+  "channels": [
+    "wechat_article"
+  ],
+  "notes": "适合公众号长文，重在方法论和可执行理解。",
+  "length_preference": "中等长度",
+  "cta_level": "弱引导",
+  "missing_info": []
+}

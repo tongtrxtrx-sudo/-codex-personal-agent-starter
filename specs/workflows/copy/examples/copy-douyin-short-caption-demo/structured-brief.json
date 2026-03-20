@@ -1,0 +1,46 @@
+{
+  "scene_type": "社交媒体内容帖",
+  "platforms": [
+    "douyin"
+  ],
+  "campaign_name": null,
+  "campaign_type": "短视频配文",
+  "content_topic": "今天终于把文案 workflow 跑顺了",
+  "content_goal": "输出适合抖音的短视频配文",
+  "core_message": "workflow 的价值在于可重复调用",
+  "persona": "做事型 AI 工作流搭建者",
+  "date_range": null,
+  "deadline": null,
+  "price": null,
+  "audience": [
+    "对 AI 工作流感兴趣的人"
+  ],
+  "core_selling_points": [
+    "文案 workflow 跑顺",
+    "可重复调用",
+    "不是偶尔灵感"
+  ],
+  "tone": [
+    "轻松",
+    "有观点",
+    "不过长"
+  ],
+  "must_include": {
+    "price": null,
+    "deadline": null,
+    "contact": null,
+    "location": null,
+    "cta": null
+  },
+  "forbidden": [
+    "啰嗦",
+    "空泛鸡血"
+  ],
+  "channels": [
+    "douyin_caption"
+  ],
+  "notes": "适合抖音短配文，先给观点，再给一句体感。",
+  "length_preference": "极短",
+  "cta_level": "低",
+  "missing_info": []
+}

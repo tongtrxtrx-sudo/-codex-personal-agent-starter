@@ -1,0 +1,47 @@
+{
+  "scene_type": "社交媒体内容帖",
+  "platforms": [
+    "小红书"
+  ],
+  "campaign_name": null,
+  "campaign_type": "内容分享",
+  "content_topic": "孩子不爱开口说英语怎么办",
+  "content_goal": "输出一篇适合小红书的育儿经验帖",
+  "core_message": "先建立表达信心，不要急着纠错",
+  "persona": "有一线陪伴经验、温和可信的少儿英语从业者",
+  "date_range": null,
+  "deadline": null,
+  "price": null,
+  "audience": [
+    "5-8 岁孩子家长"
+  ],
+  "core_selling_points": [
+    "先建立表达信心",
+    "不要急着纠错",
+    "陪孩子慢慢敢开口"
+  ],
+  "tone": [
+    "温和",
+    "真实",
+    "有经验感"
+  ],
+  "must_include": {
+    "price": null,
+    "deadline": null,
+    "contact": null,
+    "location": null,
+    "cta": "如需进一步交流，可私信沟通"
+  },
+  "forbidden": [
+    "制造家长焦虑",
+    "硬广式卖课",
+    "夸大效果"
+  ],
+  "channels": [
+    "xiaohongshu_post"
+  ],
+  "notes": "这是小红书内容帖，不是招生海报，不需要强行动转化。",
+  "length_preference": "300-500 字",
+  "cta_level": "弱引导",
+  "missing_info": []
+}

@@ -1,0 +1,48 @@
+{
+  "scene_type": "会议纪要 / 会后同步",
+  "platforms": [
+    "wechat_work",
+    "email"
+  ],
+  "campaign_name": null,
+  "campaign_type": "项目同步",
+  "content_topic": "AI workflow 脚本驱动推进会后同步",
+  "content_goal": "向项目组同步会议结论和行动项",
+  "core_message": "聚焦 copy-workflow 脚本化、图片 workflow 补案例、video workflow 接口预研",
+  "persona": "项目协调人",
+  "date_range": "今天下午",
+  "deadline": null,
+  "price": null,
+  "audience": [
+    "项目组"
+  ],
+  "core_selling_points": [
+    "同步核心结论",
+    "明确行动项",
+    "标出负责人和时间点"
+  ],
+  "tone": [
+    "清楚",
+    "简洁",
+    "便于执行"
+  ],
+  "must_include": {
+    "price": null,
+    "deadline": "下周一前",
+    "contact": null,
+    "location": null,
+    "cta": "请各负责人按时间点推进"
+  },
+  "forbidden": [
+    "遗漏行动项",
+    "遗漏负责人",
+    "会议结论模糊"
+  ],
+  "channels": [
+    "meeting_followup"
+  ],
+  "notes": "这是会后同步，不是公告，重点是行动项和责任清晰。",
+  "length_preference": "简洁摘要",
+  "cta_level": "低",
+  "missing_info": []
+}

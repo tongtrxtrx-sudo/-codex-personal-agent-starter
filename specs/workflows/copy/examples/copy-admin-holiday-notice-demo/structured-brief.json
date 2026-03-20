@@ -1,0 +1,42 @@
+{
+  "campaign_name": "端午节放假通知",
+  "campaign_type": "内部行政通知",
+  "date_range": "5 月 31 日至 6 月 2 日",
+  "deadline": "离岗前完成安全检查",
+  "price": null,
+  "audience": [
+    "全体员工"
+  ],
+  "core_selling_points": [
+    "明确放假与返岗时间",
+    "提醒离岗安全检查",
+    "保留节假日紧急联系人"
+  ],
+  "tone": [
+    "清楚",
+    "正式",
+    "不过度生硬"
+  ],
+  "must_include": {
+    "price": null,
+    "deadline": "离岗前关闭电脑、电源和空调",
+    "contact": "王敏 139xxxx6666",
+    "location": "办公室",
+    "cta": "请大家提前做好工作安排并完成离岗检查"
+  },
+  "forbidden": [
+    "模糊放假时间",
+    "遗漏返岗时间",
+    "遗漏值班联系方式"
+  ],
+  "channels": [
+    "notice_title",
+    "wechat_group_notice",
+    "email_notice",
+    "sms"
+  ],
+  "notes": "这是内部通知，不需要营销语气，重点是清楚和完整。",
+  "missing_info": [
+    "邮件抄送范围"
+  ]
+}

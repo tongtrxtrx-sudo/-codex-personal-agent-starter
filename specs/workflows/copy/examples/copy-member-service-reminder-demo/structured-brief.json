@@ -1,0 +1,42 @@
+{
+  "campaign_name": "3 月会员体测预约提醒",
+  "campaign_type": "门店服务提醒",
+  "date_range": "3 月 22 日至 3 月 30 日，每天上午 10 点至晚上 9 点",
+  "deadline": "3 月 30 日晚 9 点",
+  "price": "免费",
+  "audience": [
+    "已有会员"
+  ],
+  "core_selling_points": [
+    "免费体测",
+    "训练建议",
+    "一对一预约"
+  ],
+  "tone": [
+    "自然",
+    "温和",
+    "不过度促销"
+  ],
+  "must_include": {
+    "price": "免费",
+    "deadline": "3 月 30 日晚 9 点前可预约",
+    "contact": "企业微信 fitclub88",
+    "location": null,
+    "cta": "现在预约体测时间"
+  },
+  "forbidden": [
+    "制造焦虑",
+    "夸大效果",
+    "过度促销"
+  ],
+  "channels": [
+    "poster_title",
+    "moments_post",
+    "group_notice",
+    "sms"
+  ],
+  "notes": "这是会员服务提醒，重点是把截止时间、免费属性和预约入口说清楚。",
+  "missing_info": [
+    "门店详细地址"
+  ]
+}

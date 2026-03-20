@@ -1,0 +1,43 @@
+{
+  "campaign_name": "周末手冲体验日",
+  "campaign_type": "活动推广",
+  "date_range": "3 月 21 日至 3 月 22 日，每天下午 2 点到 5 点",
+  "deadline": "3 月 20 日晚 8 点",
+  "price": "19.9 元",
+  "audience": [
+    "附近上班族",
+    "咖啡爱好者"
+  ],
+  "core_selling_points": [
+    "轻松体验",
+    "手冲入门",
+    "限量小班"
+  ],
+  "tone": [
+    "温暖",
+    "生活化",
+    "不过度推销"
+  ],
+  "must_include": {
+    "price": "19.9 元",
+    "deadline": "3 月 20 日晚 8 点报名截止",
+    "contact": "微信 coffeehouse01",
+    "location": null,
+    "cta": "现在加微信报名"
+  },
+  "forbidden": [
+    "夸大效果",
+    "制造稀缺焦虑",
+    "空泛 lifestyle 口号"
+  ],
+  "channels": [
+    "poster_title",
+    "moments_post",
+    "group_notice",
+    "sms"
+  ],
+  "notes": "适合社区门店活动，重点是轻体验、低门槛和生活感。",
+  "missing_info": [
+    "门店具体地址"
+  ]
+}

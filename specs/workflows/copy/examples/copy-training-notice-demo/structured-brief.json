@@ -1,0 +1,42 @@
+{
+  "campaign_name": "AI 工作流入门与办公实操培训",
+  "campaign_type": "内部培训通知",
+  "date_range": "3 月 25 日下午 2 点至 4 点",
+  "deadline": "3 月 24 日晚 6 点",
+  "price": null,
+  "audience": [
+    "行政同事",
+    "运营同事",
+    "教务同事"
+  ],
+  "core_selling_points": [
+    "AI 工作流入门",
+    "办公实操",
+    "现场练习"
+  ],
+  "tone": [
+    "清楚",
+    "友好",
+    "正式"
+  ],
+  "must_include": {
+    "price": null,
+    "deadline": "3 月 24 日晚 6 点报名截止",
+    "contact": "刘婷，企业微信 LTing01",
+    "location": "3 楼培训室",
+    "cta": "请在截止前联系刘婷报名，并自带电脑参训"
+  },
+  "forbidden": [
+    "遗漏签到时间",
+    "遗漏地点",
+    "遗漏报名联系人"
+  ],
+  "channels": [
+    "notice_title",
+    "wechat_group_notice",
+    "email_notice",
+    "sms"
+  ],
+  "notes": "这是内部培训通知，重点是时间、地点、签到要求和报名方式都要清楚。",
+  "missing_info": []
+}

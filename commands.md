@@ -15,6 +15,17 @@ codex --model gpt-5.4
 $quick-capture
 $morning-brief
 $file-triage
+$copy-workflow
+$image-workflow
+$video-workflow
+$ppt-workflow
+```
+
+## Copy Workflow CLI
+```powershell
+uv run python scripts/copy_workflow.py template
+uv run python scripts/copy_workflow.py classify --raw "我想在小红书发个育儿贴"
+uv run python scripts/copy_workflow.py prompt --raw "写一个端午放假通知" --scene internal_notice --platform wechat_work --platform email --platform sms
 ```
 
 ## 常用提示词示例

@@ -1,0 +1,42 @@
+{
+  "campaign_name": "暑期体验课招生活动",
+  "campaign_type": "招生推广",
+  "date_range": "7 月 6 日至 7 月 20 日",
+  "deadline": "7 月 5 日",
+  "price": "9.9 元",
+  "audience": [
+    "5-10 岁孩子家长"
+  ],
+  "core_selling_points": [
+    "表达能力",
+    "自信开口",
+    "小班教学"
+  ],
+  "tone": [
+    "亲切",
+    "可信",
+    "不过度夸张"
+  ],
+  "must_include": {
+    "price": "9.9 元",
+    "deadline": "7 月 5 日报名截止",
+    "contact": "138xxxx8888",
+    "location": null,
+    "cta": "现在咨询报名"
+  },
+  "forbidden": [
+    "制造焦虑",
+    "夸大承诺",
+    "虚构效果"
+  ],
+  "channels": [
+    "poster_title",
+    "moments_post",
+    "group_notice",
+    "sms"
+  ],
+  "notes": "用于少儿英语机构暑期体验课招生，重点强调低门槛体验和小班开口练习。",
+  "missing_info": [
+    "具体上课地点"
+  ]
+}

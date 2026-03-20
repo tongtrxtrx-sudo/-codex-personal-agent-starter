@@ -1,0 +1,49 @@
+{
+  "scene_type": "工作汇报 / 周报总结",
+  "platforms": [
+    "企业微信",
+    "邮件"
+  ],
+  "campaign_name": null,
+  "campaign_type": "工作同步",
+  "content_topic": "AI 项目推进周报",
+  "content_goal": "向老板和核心团队同步本周进展、风险和下周计划",
+  "core_message": "文案 workflow 已较成熟，图片 workflow 已进入可测试状态，视频 workflow 仍待补齐",
+  "persona": "项目推进负责人",
+  "date_range": "3 月 11 日至 3 月 17 日",
+  "deadline": null,
+  "price": null,
+  "audience": [
+    "老板",
+    "核心团队"
+  ],
+  "core_selling_points": [
+    "文案 workflow 已完善模板和案例",
+    "图片 workflow 已补模板包和真实示例",
+    "下周将推进 video workflow 和脚本接口"
+  ],
+  "tone": [
+    "清楚",
+    "专业",
+    "简洁"
+  ],
+  "must_include": {
+    "price": null,
+    "deadline": null,
+    "contact": null,
+    "location": null,
+    "cta": "请团队同步关注 video workflow 和脚本接口推进"
+  },
+  "forbidden": [
+    "流水账",
+    "模糊风险",
+    "没有下周动作"
+  ],
+  "channels": [
+    "weekly_report_summary"
+  ],
+  "notes": "面向管理层和核心团队，重点是本周成果、当前风险和下周动作。",
+  "length_preference": "简洁摘要",
+  "cta_level": "低",
+  "missing_info": []
+}

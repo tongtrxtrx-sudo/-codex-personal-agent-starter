@@ -1,0 +1,46 @@
+{
+  "scene_type": "社交媒体内容帖",
+  "platforms": [
+    "weibo"
+  ],
+  "campaign_name": null,
+  "campaign_type": "短内容表达",
+  "content_topic": "第一次把 copy-workflow 做成可调用 runner",
+  "content_goal": "发一条适合微博的短内容",
+  "core_message": "AI workflow 的价值在于可重复调用",
+  "persona": "做事型 AI 工作流搭建者",
+  "date_range": null,
+  "deadline": null,
+  "price": null,
+  "audience": [
+    "对 AI 工作流感兴趣的人"
+  ],
+  "core_selling_points": [
+    "第一次做成 runner",
+    "可重复调用",
+    "不是只会聊天"
+  ],
+  "tone": [
+    "轻松",
+    "有一点成就感",
+    "不过度自嗨"
+  ],
+  "must_include": {
+    "price": null,
+    "deadline": null,
+    "contact": null,
+    "location": null,
+    "cta": null
+  },
+  "forbidden": [
+    "自夸过头",
+    "空泛鸡血"
+  ],
+  "channels": [
+    "weibo_post"
+  ],
+  "notes": "适合微博短文案，重点是短、直接、有观点。",
+  "length_preference": "短内容",
+  "cta_level": "低",
+  "missing_info": []
+}

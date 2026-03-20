@@ -1,0 +1,45 @@
+{
+  "subject": "少儿英语暑期体验课招生海报",
+  "campaign_goal": "暑期体验课报名转化",
+  "audience": [
+    "5-10 岁孩子家长"
+  ],
+  "scene": "教室、小班互动、孩子开口表达的暑期学习场景",
+  "style_keywords": [
+    "明亮",
+    "亲切",
+    "教育感"
+  ],
+  "brand_tone": [
+    "可信",
+    "专业",
+    "不过度促销"
+  ],
+  "primary_colors": [
+    "蓝色",
+    "黄色",
+    "白色"
+  ],
+  "must_show_elements": [
+    "孩子互动",
+    "小班课堂",
+    "留出文案信息区"
+  ],
+  "text_overlay": {
+    "headline": "9.9元暑期体验课",
+    "subheadline": "7月5日报名截止",
+    "facts_to_keep": [
+      "9.9元",
+      "报名截止 7 月 5 日"
+    ]
+  },
+  "negative_constraints": [
+    "不要廉价促销感",
+    "不要过度卡通",
+    "不要拥挤构图"
+  ],
+  "format_notes": "适合海报主视觉，画面需预留标题和报名信息位置",
+  "missing_info": [
+    "机构正式品牌规范"
+  ]
+}
