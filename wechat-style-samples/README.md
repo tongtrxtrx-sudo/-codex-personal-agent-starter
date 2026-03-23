@@ -1,61 +1,59 @@
-# WeChat Style Samples
+# 微信风格样本目录
 
-## Goal
+## 目标
 
-This folder stores exported `.eml` samples from WeChat chat history so they can be normalized and adapted into the repository's copy workflow.
+这个目录用于存放从微信聊天记录导出的 `.eml` 样本，后续会被清洗、归类，并适配到仓库内的 `copy workflow`。
 
-## Directory Layout
+## 目录结构
 
 - `raw-email/kindergarten-group/`
-  - Group-chat samples from kindergarten parent groups
+  - 幼儿园家长群聊天样本
 - `raw-email/parent-1on1/`
-  - Important one-on-one parent conversations
+  - 家长一对一重要私聊样本
 - `normalized/`
-  - Cleaned text extracted from `.eml` files
+  - 从 `.eml` 中提取并清洗后的文本
 - `profile/`
-  - Style summaries, phrase libraries, and workflow adaptation notes
+  - 风格画像、常用句式和 workflow 适配说明
 
-## What To Export
+## 推荐导出内容
 
-Prefer exporting high-signal messages, not everything.
+优先导出高价值样本，不要一开始就全量堆积。
 
-Recommended:
+建议：
 
-- 10 to 30 `.eml` files for kindergarten group announcements
-- 10 to 30 `.eml` files for important one-on-one parent chats
+- 幼儿园群通知类 `.eml`：10 到 30 份
+- 家长重要私聊 `.eml`：10 到 30 份
 
-Good samples usually contain:
+优质样本通常包含：
 
-- your real tone
-- repeated sentence patterns
-- reminders and notices
-- soft emotional language
-- teacher-parent communication style
+- 你真实的说话口吻
+- 高频句式
+- 通知和提醒类表达
+- 温和的情绪表达
+- 教师与家长沟通的稳定风格
 
-## File Naming
+## 文件命名建议
 
-Use readable names so batch processing is easier.
-
-Recommended patterns:
+建议使用可读文件名，方便后续批处理：
 
 - `2026-03-21-kindergarten-group-01.eml`
 - `2026-03-21-kindergarten-group-02.eml`
 - `2026-03-21-parent-1on1-01.eml`
 - `2026-03-21-parent-1on1-02.eml`
 
-## Notes
+## 使用注意
 
-- `.eml` is the preferred source format.
-- Try to keep one conversation export per file.
-- If a message thread is especially important, keep it intact rather than editing it manually.
-- Do not put private files anywhere outside this folder if you want them processed for style extraction later.
+- `.eml` 是首选格式
+- 尽量一份文件对应一段相对完整的聊天记录
+- 如果某段对话特别有代表性，优先保持原样，不要先手工改写
+- 如果你希望后续做风格提取，不要把这些私密文件放到本目录之外
 
-## Next Step
+## 下一步
 
-After you drop the `.eml` files here, the next processing flow will be:
+当你把 `.eml` 文件放进来后，后续处理流程是：
 
-1. extract message text from raw email
-2. normalize timestamps, speakers, and content
-3. group by scene and tone
-4. build a reusable style profile
-5. adapt the copy workflow rules
+1. 从原始邮件中提取正文
+2. 归一化时间、说话人和内容
+3. 按场景和语气归类
+4. 生成可复用风格画像
+5. 适配到 `copy workflow`

@@ -13,12 +13,12 @@
 
 ### Skill 入口
 ```text
-显式使用 $copy-workflow。按文案 workflow 处理下面需求，默认只输出最终推荐版本、备选版本、待确认项；如果我说“展开链路”，再显示 structured brief、draft copy、review result。
+显式使用 $copy-workflow。按文案 workflow 处理下面需求，默认只输出最终推荐版本、备选版本、待确认项；如果我说“展开链路”，再显示结构化 brief、文案初稿、审校结果。
 ```
 
 ### 通用文档入口
 ```text
-按 D:\work\myclaw\codex-personal-agent-starter\specs\workflows\copy-workflow.md 处理下面需求，默认只输出 final recommended copy、backup versions、human-check items；如果我说“展开链路”，再显示 structured brief、draft copy、review result。
+按 D:\work\myclaw\codex-personal-agent-starter\specs\workflows\copy\copy-workflow.md 处理下面需求，默认只输出最终推荐版本、备选版本、待确认项；如果我说“展开链路”，再显示结构化 brief、文案初稿、审校结果。
 ```
 
 适用输入现在包括：
@@ -41,7 +41,7 @@
 
 ### 通用文档入口
 ```text
-按 D:\work\myclaw\codex-personal-agent-starter\specs\workflows\image-workflow.md 处理下面需求，并输出 visual brief、prompt directions、brand review、human-check items。
+按 D:\work\myclaw\codex-personal-agent-starter\specs\workflows\image\image-workflow.md 处理下面需求，并输出视觉 brief、方向 prompts、品牌审校、待确认项。
 ```
 
 ## 3. 视频 Workflow
@@ -53,7 +53,7 @@
 
 ### 通用文档入口
 ```text
-按 D:\work\myclaw\codex-personal-agent-starter\specs\workflows\video-workflow.md 处理下面需求，并输出 video angles、script draft、storyboard review、human-check items。
+按 D:\work\myclaw\codex-personal-agent-starter\specs\workflows\video\video-workflow.md 处理下面需求，并输出选题方向、脚本初稿、分镜审校、待确认项。
 ```
 
 ## 4. PPT Workflow
@@ -65,7 +65,7 @@
 
 ### 通用文档入口
 ```text
-按 D:\work\myclaw\codex-personal-agent-starter\specs\workflows\ppt-workflow.md 处理下面需求，并输出 presentation brief、deck outline、slide draft、human-check items。
+按 D:\work\myclaw\codex-personal-agent-starter\specs\workflows\ppt\ppt-workflow.md 处理下面需求，并输出 presentation brief、目录结构、页面初稿、待确认项。
 ```
 
 ## 使用建议

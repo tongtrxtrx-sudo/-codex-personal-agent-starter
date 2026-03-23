@@ -17,12 +17,12 @@
 11. [copy-review-output-template.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-review-output-template.md)
 
 ## 推荐使用顺序
-### Step 1：整理原始需求
+### 第一步：整理原始需求
 - 把用户原始描述、聊天记录、会议纪要或语音转写先收进 `brief-template.json`
 - 先按场景补问规则判断要补哪些最小字段
 - 缺失信息不要猜，放进 `missing_info`
 
-### Step 2：生成多渠道文案
+### 第二步：生成多渠道文案
 - 基于结构化 brief 输出文案
 - 输出时优先贴合 `copy-output-template.md` 的结构
 - 如果目标是社交媒体平台，优先按平台原生结构输出
@@ -30,7 +30,7 @@
 - 标题生成时先看标题模板
 - 输出后再对照长度约束表做一次自检
 
-### Step 3：做审校与修正
+### 第三步：做审校与修正
 - 按 `review-checklist.md` 逐项核对
 - 先核对事实，再核对语气，再核对发布风险
 - 特别检查不同渠道是否漏掉了各自的必保留字段
@@ -38,7 +38,7 @@
 - 明确推荐采用版本，避免把版本差异留给用户自己猜
 - 按 `copy-review-output-template.md` 说明为什么推荐、为什么不推荐、下一步先改什么
 
-### Step 4：人工确认
+### 第四步：人工确认
 - 价格、日期、联系方式、品牌关键表达必须人工确认
 - 审校通过不等于可直接外发
 

@@ -1,9 +1,9 @@
-# Copy Review Output Template
+# 文案审校输出模板
 
-## Goal
-Force review output to explain both the recommendation and the rejection logic, not just list problems.
+## 目标
+让审校结果不仅指出问题，还要明确说明为什么推荐某个版本、为什么不推荐其他版本。
 
-## Required Sections
+## 必须包含的部分
 
 ```md
 ## Review Summary
@@ -41,8 +41,8 @@ Force review output to explain both the recommendation and the rejection logic, 
 - ...
 ```
 
-## Use When
-- There are multiple title versions
-- There are multiple body versions
-- The user did not specify a preference
-- One version is clearly safer or more usable than the others
+## 使用时机
+- 存在多个标题版本
+- 存在多个正文版本
+- 用户没有明确指定偏好
+- 某一个版本明显更稳妥、更可用

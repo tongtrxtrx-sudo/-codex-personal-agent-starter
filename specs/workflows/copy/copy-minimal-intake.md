@@ -1,86 +1,91 @@
-# Copy Workflow Minimal Intake
+# 文案 Workflow 最小补问
 
-## Goal
-Keep intake short enough for everyday use while still collecting the minimum information needed for a stable first draft.
+## 目标
+让补问足够短，适合日常使用，同时仍能稳定拿到首稿所需的最少信息。
 
-## Rule
-Ask only 3 to 5 questions first.  
-If the answer is still insufficient for a reliable draft, ask only the missing blockers.  
-Everything else should move to `human-check items`.
+## 规则
+先只问 3 到 5 项。  
+如果回答后仍不足以稳定成稿，再继续补剩余阻塞项。  
+其余信息统一放入 `待确认项`。
 
-## Intake by Scene
+## 按场景的最少补问
 
-### Activity Promo
-- Time
-- Deadline
-- Price
-- Audience
-- Contact or signup entry
+### 活动推广
+- 时间
+- 截止时间
+- 价格
+- 受众
+- 联系方式或报名入口
 
-### Internal Notice
-- Time arrangement
-- Back-to-work or execution time
-- Contact
-- Required action
+### 内部通知
+- 时间安排
+- 恢复上班或执行时间
+- 联系人
+- 动作要求
 
-### Training Notice
-- Topic
-- Time
-- Location
-- Audience
-- Contact
+### 培训通知
+- 主题
+- 时间
+- 地点
+- 对象
+- 联系人
 
-### Service Reminder
-- Service name
-- Deadline
-- Target audience
-- Price or free
-- Booking entry
+### 服务提醒
+- 服务名称
+- 截止时间
+- 适用对象
+- 是否收费
+- 预约入口
 
-### Meeting Notice
-- Topic
-- Time
-- Location or link
-- Audience
-- Contact or preparation notes
+### 会议通知
+- 主题
+- 时间
+- 地点或链接
+- 对象
+- 联系人或准备事项
 
-### Weekly Report
-- Time range
-- Completed work
-- Current risks
-- Next-step plan
-- Audience
+### 周报 / 汇报
+- 时间范围
+- 已完成事项
+- 当前风险
+- 下一步计划
+- 汇报对象
 
-### Meeting Follow-up
-- Meeting topic
-- Key decisions
-- Action items
-- Owners
-- Deadlines
+### 会议纪要 / 会后同步
+- 会议主题
+- 核心结论
+- 行动项
+- 负责人
+- 截止时间
 
-### Hiring
-- Role
-- Location
-- Core responsibilities
-- Apply channel
-- Platform
+### 招聘文案
+- 岗位
+- 地点
+- 核心职责
+- 投递方式
+- 发布平台
 
-### Social Post
-- Topic
-- Audience
-- Core message
-- Style
-- Platform
+### 社交媒体内容帖
+- 主题
+- 受众
+- 核心观点
+- 风格
+- 平台
 
-### Video Packaging
-- Content topic
-- Platform
-- Core hook
-- Tone
-- CTA level
+### 幼儿园家长群通知
+- 放假或活动时间
+- 恢复返园时间
+- 提醒事项
 
-## Fallback Rule
-If the scene is still unclear after the raw input:
-1. Ask what kind of task it is.
-2. Ask where it will be published.
-3. Ask what outcome it is trying to achieve.
+### 视频包装文案
+- 内容主题
+- 平台
+- 核心钩子
+- 调性
+- CTA 强度
+
+## 兜底规则
+如果原始需求仍然看不出属于哪一类场景：
+1. 先问这是什么任务
+2. 再问发布到哪里
+3. 最后问希望达成什么结果

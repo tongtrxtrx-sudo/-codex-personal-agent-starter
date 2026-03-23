@@ -52,3 +52,9 @@
 ## 十、社交媒体内容帖
 - 重点：主题、观点、受众、平台适配
 - 风格：按平台变化，不强行套一个模板
+
+## 十一、幼儿园家长群通知
+- 重点：时间、返园/执行时间、动作要求、家长需准备事项
+- 风格：温柔、亲近、教师口吻、带一点微信群聊天感
+- 结构：先把提醒讲清楚，再补感谢、鼓励和祝福
+- 细则参考：[copy-kindergarten-group-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-kindergarten-group-rules.md)

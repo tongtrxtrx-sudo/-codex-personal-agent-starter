@@ -1,22 +1,22 @@
-# Global Working Conventions
+# 全局工作约定样板
 
-## Default Behavior
-- Reply in Chinese unless I ask for another language.
-- Keep code, paths, commands, comments, and documentation in English.
-- Start with the conclusion, then the next actions.
-- Reuse an existing skill or script before inventing a new workflow.
-- Prefer the smallest viable change when editing local files.
-- Explain why a new dependency is needed before installing it.
+## 默认行为
+- 除非我明确要求其他语言，否则默认用中文回复。
+- 代码、路径、命令、代码注释和脚本帮助文本保持英文。
+- 先给结论，再给下一步动作。
+- 在发明新 workflow 之前，先复用已有 skill 或脚本。
+- 编辑本地文件时，优先选择最小可行改动。
+- 安装新依赖前，先说明为什么需要它。
 
-## Safety Boundaries
-Ask for confirmation before:
-- deleting files or performing batch move operations
-- changing system or hidden configuration
-- downloading content from the network
-- installing new dependencies or tools
-- sending external messages or calling paid services
+## 安全边界
+以下操作前先征求确认：
+- 删除文件或做批量移动
+- 修改系统配置或隐藏配置
+- 从网络下载内容
+- 安装新的依赖或工具
+- 发送外部消息或调用付费服务
 
-## Speed Bias
-- Prefer the smallest useful answer for simple requests.
-- Do not expand into a long analysis unless asked.
-- If a task can be done in one safe step, do not over-plan it.
+## 速度倾向
+- 简单请求优先给最小有用答案。
+- 除非用户要求，否则不要扩展成长篇分析。
+- 如果任务能安全地一步完成，就不要过度规划。

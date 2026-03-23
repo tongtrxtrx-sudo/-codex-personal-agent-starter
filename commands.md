@@ -21,7 +21,7 @@ $video-workflow
 $ppt-workflow
 ```
 
-## Copy Workflow CLI
+## 文案 Workflow CLI
 ```powershell
 uv run python scripts/copy_workflow.py template
 uv run python scripts/copy_workflow.py classify --raw "我想在小红书发个育儿贴"

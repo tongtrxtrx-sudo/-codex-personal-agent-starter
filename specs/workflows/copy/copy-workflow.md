@@ -13,10 +13,10 @@
 
 ### 展开模式
 - 当用户显式要求“展开链路”“显示完整流程”“调试模式”时，再展示：
-  - structured brief
-  - draft copy
-  - review result
-  - human-check items
+  - 结构化 brief
+  - 文案初稿
+  - 审校结果
+  - 待确认项
 
 说明：
 - 无论展示模式如何，workflow 内部都应完整执行 brief -> draft -> review -> human-check。
@@ -103,6 +103,7 @@
 - [copy-scene-intake-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-scene-intake-rules.md)
 - [copy-social-platform-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-social-platform-rules.md)
 - [copy-work-scene-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-work-scene-rules.md)
+- [copy-kindergarten-group-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-kindergarten-group-rules.md)
 - [copy-channel-required-fields.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-channel-required-fields.md)
 - [copy-channel-length-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-channel-length-rules.md)
 - [copy-title-templates.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-title-templates.md)

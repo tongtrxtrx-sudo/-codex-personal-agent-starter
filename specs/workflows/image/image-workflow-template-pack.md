@@ -11,20 +11,20 @@
 5. [image-direction-quality-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-direction-quality-rules.md)
 
 ## 推荐使用顺序
-### Step 1：整理视觉 Brief
+### 第一步：整理视觉 Brief
 - 先用 `visual-brief-template.json` 把主体、受众、场景、风格和负向限制整理出来
 - 缺失信息不要猜，放进 `missing_info`
 
-### Step 2：生成方向与 Prompt
+### 第二步：生成方向与 Prompt
 - 用 `image-direction-template.md` 输出 3 个可比较方向
 - 输出前先看必保留字段表
 - 输出后再对照质量规则自检
 
-### Step 3：做品牌审校
+### 第三步：做品牌审校
 - 用 `brand-review-checklist.md` 逐项核对
 - 先看受众和品牌，再看画面和标题
 
-### Step 4：人工确认
+### 第四步：人工确认
 - 选定方向前必须人工确认
 - 促销信息、品牌关键表达和最终出图都不能跳过人工把关
 

@@ -1,22 +1,22 @@
-# Current Focus
+# 当前重点
 
-## This Week's Top Priorities
-- [ ] Turn this workspace into a daily-use cockpit for AI-related development and design
-- [ ] Use `quick-capture` and `morning-brief` in real sessions and refine them from actual usage
-- [ ] Keep file organization safe and predictable by validating `file-triage` rules before any larger apply run
+## 本周最高优先级
+- [ ] 把这个工作区打造成 AI 开发与设计的日常工作台
+- [ ] 在真实会话里持续使用 `quick-capture` 和 `morning-brief`，并根据实际摩擦继续收紧
+- [ ] 在任何大规模执行前，先验证 `file-triage` 规则，确保文件整理安全可控
 
-## Active Workstreams
-- Personal Codex agent adoption
-- AI development and design workflow refinement
+## 当前主线
+- 个人 Codex 智能体落地
+- AI 开发与设计 workflow 持续优化
 
-## Easy-to-Miss Items
-- Keep durable rules short and push heavier guidance into skills
-- Prefer lightweight local workflows over heavy agent infrastructure
-- Add API or external automation only after a real need appears
-- Verify outcomes before claiming that something is fixed
-- Prefer completeness when the task benefits from deeper reasoning
+## 容易忽略的点
+- 长期有效的规则尽量短，把更重的说明下沉到 skills
+- 优先选择轻量本地 workflow，不要过早做重型代理基础设施
+- 只有出现真实需要时，才考虑 API 或外部自动化
+- 没有验证证据时，不要声称已经修好
+- 当更深的推理能明显提高结果时，优先完整性
 
-## Not Now
-- Building an OpenClaw-style platform
-- Turning custom GPT actions into the primary execution path
-- Adding background services before the local workflow is stable
+## 暂不处理
+- 搭建 OpenClaw 式平台
+- 把自定义 GPT actions 作为主执行路径
+- 在本地 workflow 还不稳定前增加后台服务

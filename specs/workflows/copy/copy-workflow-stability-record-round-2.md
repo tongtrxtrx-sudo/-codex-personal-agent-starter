@@ -7,7 +7,7 @@
 - 记录基础：对第一轮中问题最明显的 3 个旧案例进行 guardrail 重跑
 - 当前状态：第 2 轮，已完成 3 / 3 个旧案例回跑
 
-## Case 1
+## 案例 1
 - 场景：教培招生
 - 原始案例：[copy-summer-course-demo](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/examples/copy-summer-course-demo)
 - 重跑初稿：[copy-draft-guardrail-rerun.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/examples/copy-summer-course-demo/copy-draft-guardrail-rerun.md)
@@ -20,7 +20,7 @@
   - 短信已压缩到关键字段最小集合
 - 当前判断：明显改善
 
-## Case 2
+## 案例 2
 - 场景：行政通知
 - 原始案例：[copy-admin-holiday-notice-demo](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/examples/copy-admin-holiday-notice-demo)
 - 重跑初稿：[copy-draft-guardrail-rerun.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/examples/copy-admin-holiday-notice-demo/copy-draft-guardrail-rerun.md)
@@ -33,7 +33,7 @@
   - 短信同时保留了时间、动作和联系人
 - 当前判断：明显改善
 
-## Case 3
+## 案例 3
 - 场景：活动推广
 - 原始案例：[copy-weekend-promo-demo](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/examples/copy-weekend-promo-demo)
 - 重跑初稿：[copy-draft-guardrail-rerun.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/examples/copy-weekend-promo-demo/copy-draft-guardrail-rerun.md)
