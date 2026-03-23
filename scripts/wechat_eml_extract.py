@@ -12,6 +12,26 @@ import re
 from typing import Iterable
 
 
+WECHAT_EMOJI_MAP: dict[str, str] = {
+    "[呲牙]": "😁",
+    "[苦涩]": "🥹",
+    "[握手]": "🤝",
+    "[偷笑]": "🤭",
+    "[让我看看]": "👀",
+    "[玫瑰]": "🌹",
+    "[转圈]": "💫",
+    "[爱心]": "❤️",
+    "[强]": "👍",
+    "[微笑]": "😊",
+    "[抱拳]": "🙏",
+    "[加油]": "💪",
+    "[吃瓜]": "🍉",
+    "[社会社会]": "😎",
+    "[庆祝]": "🎉",
+    "[跳跳]": "🎉",
+}
+
+
 class HTMLTextExtractor(HTMLParser):
     """Convert basic HTML email bodies into readable plain text."""
 
@@ -84,6 +104,12 @@ def normalize_whitespace(text: str) -> str:
     return text.strip()
 
 
+def replace_wechat_emoji_placeholders(text: str) -> str:
+    for placeholder, emoji in WECHAT_EMOJI_MAP.items():
+        text = text.replace(placeholder, emoji)
+    return text
+
+
 def strip_mail_wrapper(text: str) -> str:
     lines = [line.rstrip() for line in text.splitlines()]
     marker_patterns = (
@@ -125,7 +151,9 @@ def write_normalized_markdown(source: Path, output_dir: Path) -> Path:
 
     plain_text, html_text = decode_text_parts(message)
     body = choose_best_body(plain_text, html_text)
-    body = normalize_whitespace(strip_mail_wrapper(body))
+    body = strip_mail_wrapper(body)
+    body = replace_wechat_emoji_placeholders(body)
+    body = normalize_whitespace(body)
 
     subject = str(message.get("Subject", "")).strip()
     sent_at = str(message.get("Date", "")).strip()

@@ -1,5 +1,7 @@
 Thumbs.db
 .DS_Store
+__pycache__/
+*.pyc
 wechat-style-samples/raw-email/**/*.eml
 wechat-style-samples/normalized/**/*.md
 wechat-style-samples/profile/*.md
