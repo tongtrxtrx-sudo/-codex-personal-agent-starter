@@ -46,10 +46,13 @@ Only when the user explicitly asks to "show full workflow", "expand the chain", 
 8. Identify the scene first, using [copy-scene-intake-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-scene-intake-rules.md).
 9. If the task targets Xiaohongshu, Moments, Weibo, Douyin, Zhihu, or Bilibili, also enforce [copy-social-platform-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-social-platform-rules.md).
 10. If the task is a common work scene, also enforce [copy-work-scene-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-work-scene-rules.md).
-11. Do not skip the review step.
-12. Internally run the full workflow even when the user sees only default-mode output.
-13. Keep unresolved facts and final approval items visible.
-14. In default mode, hide intermediate nodes unless the user explicitly asks to expand them.
+11. If the task is a kindergarten parent-group notice, also enforce [copy-kindergarten-group-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-kindergarten-group-rules.md).
+12. If the task is a kindergarten parent-group notice, also use [copy-kindergarten-template-index.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-kindergarten-template-index.md) and prefer the closest scene template plus the local sample profiles under [wechat-style-samples/profile](D:/work/myclaw/codex-personal-agent-starter/wechat-style-samples/profile).
+13. If critical fields for the identified scene are missing and the copy cannot be sent, published, or used as-is, ask one concise follow-up before drafting. Prefer a compact fill-in scaffold the user can reply to directly, and optionally show one example reply. Do not present placeholder-filled copy as a final sendable or publishable result.
+14. Do not skip the review step.
+15. Internally run the full workflow even when the user sees only default-mode output.
+16. Keep unresolved facts and final approval items visible.
+17. In default mode, hide intermediate nodes unless the user explicitly asks to expand them.
 
 # Example Invocation
 `显式使用 $copy-workflow。按文案 workflow 处理下面需求，默认只输出最终推荐版本、备选版本、待确认项；如果我说“展开链路”，再显示 structured brief、draft copy、review result。`

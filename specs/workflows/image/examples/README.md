@@ -7,6 +7,10 @@
    - 场景：教培招生海报
    - 类型：对外主视觉方向探索
 
+2. [pet-clinic-spring-checkup-poster-demo](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/examples/pet-clinic-spring-checkup-poster-demo)
+   - 场景：宠物医院春季体检活动海报
+   - 类型：本地门店活动主视觉方向探索
+
 ## 统一文件结构
 - `raw-input.md`
 - `visual-brief.json`

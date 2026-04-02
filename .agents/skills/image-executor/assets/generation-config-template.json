@@ -1,0 +1,21 @@
+{
+  "execution_mode": "{{image_api|responses_api_image_generation}}",
+  "action": "{{generate|edit|auto}}",
+  "model": "{{gpt-image-1.5}}",
+  "size": "{{1024x1024}}",
+  "quality": "{{medium}}",
+  "format": "{{png}}",
+  "background": "{{opaque|transparent}}",
+  "selected_direction": "{{direction_name}}",
+  "prompt": "{{final_prompt_used_for_generation}}",
+  "negative_prompt": "{{final_negative_prompt_used_for_generation}}",
+  "reference_inputs": [
+    "{{reference_image_or_file_id}}"
+  ],
+  "mask_input": "{{mask_file_or_null}}",
+  "output_artifacts": [
+    "{{saved_output_path_or_artifact_id}}"
+  ],
+  "revised_prompt": "{{api_revised_prompt_or_null}}",
+  "notes": "{{generation_notes}}"
+}

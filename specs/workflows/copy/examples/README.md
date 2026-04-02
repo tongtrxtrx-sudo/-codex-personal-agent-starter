@@ -55,6 +55,10 @@
    - 场景：抖音短视频配文
    - 类型：娱乐 / 短内容
 
+14. [copy-kindergarten-opening-notice-demo](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/examples/copy-kindergarten-opening-notice-demo)
+   - 场景：幼儿园小班开学通知
+   - 类型：家长群通知
+
 ## 统一文件结构
 - `raw-input.md`
 - `structured-brief.json`
@@ -73,3 +77,4 @@
 - 再用小红书内容帖案例验证平台型内容的补问和输出结构
 - 再用周报、视频号和 B站案例检查工作 / 社交 / 娱乐覆盖是否完整
 - 再用会议纪要、公众号、微博、抖音案例检查平台与场景覆盖是否均衡
+- 再用幼儿园开学通知案例验证“样本驱动 + 家长群真实口吻”的输出是否稳定

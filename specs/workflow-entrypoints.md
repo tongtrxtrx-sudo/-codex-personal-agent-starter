@@ -44,6 +44,10 @@
 按 D:\work\myclaw\codex-personal-agent-starter\specs\workflows\image\image-workflow.md 处理下面需求，并输出视觉 brief、方向 prompts、品牌审校、待确认项。
 ```
 
+补充：
+- 如果当前只有 ChatGPT Pro，没有 API key，方向确认后优先按 [image-chatgpt-pro-manual-flow.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-chatgpt-pro-manual-flow.md) 手动出图
+- 如果后面具备 API 能力，再进入 [image-execution.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-execution.md)
+
 ## 3. 视频 Workflow
 
 ### Skill 入口

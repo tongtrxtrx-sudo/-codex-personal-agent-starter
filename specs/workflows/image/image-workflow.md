@@ -9,6 +9,9 @@
 - 社媒封面图
 - 宣传图片方向探索
 
+详细子场景规划见：
+- [image-subscene-planning.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-subscene-planning.md)
+
 ## 不适用场景
 - 已有完整品牌规范且只需要执行设计
 - 需要最终商业设计成稿而非方向探索
@@ -19,7 +22,14 @@
 2. [image-prompt-generator](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-prompt-generator/SKILL.md)
 3. [brand-checker](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/brand-checker/SKILL.md)
 
+## 扩展 Skills
+- [image-executor](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-executor/SKILL.md)
+- [image-result-reviewer](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-result-reviewer/SKILL.md)
+
 ## 标准流程
+### Step 0：最小补问
+- 如果输入仍不足以稳定抽取视觉 brief，先按 [image-minimal-intake.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-minimal-intake.md) 补最少必要字段
+
 ### Step 1：视觉 Brief 抽取
 - 输入：活动信息、受众、品牌调性、风格要求
 - 输出：结构化视觉 brief
@@ -47,6 +57,21 @@
 - 选定最终视觉方向前必须人工确认
 - 涉及品牌关键表达、促销信息或对外正式传播时必须人工过目
 
+## 扩展执行层
+如果已经完成方向确认，并且下一步是真的要出图，而不是继续探索方向，建议进入执行扩展层：
+
+### 默认路径：ChatGPT Pro 手动成图
+如果当前只有 ChatGPT Pro，没有 API key，优先走：
+
+1. [image-chatgpt-pro-manual-flow.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-chatgpt-pro-manual-flow.md)
+
+### 可扩展路径：API 执行层
+如果后面具备 API 能力，再进入：
+
+1. [image-execution.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-execution.md)
+2. [image-executor](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-executor/SKILL.md)
+3. [image-result-reviewer](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-result-reviewer/SKILL.md)
+
 ## 最低交付物
 - 一份结构化视觉 brief
 - 2 到 3 个视觉方向
@@ -54,12 +79,17 @@
 - 一份品牌检查建议
 
 ## 模板资产
+- [image-minimal-intake.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-minimal-intake.md)
 - [visual-brief-template.json](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/visual-brief-extractor/assets/visual-brief-template.json)
 - [image-direction-template.md](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-prompt-generator/assets/image-direction-template.md)
 - [brand-review-checklist.md](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/brand-checker/assets/brand-review-checklist.md)
 - [image-brief-required-fields.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-brief-required-fields.md)
 - [image-direction-quality-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-direction-quality-rules.md)
 - [image-workflow-template-pack.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-workflow-template-pack.md)
+- [image-chatgpt-pro-manual-flow.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-chatgpt-pro-manual-flow.md)
+- [image-execution.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-execution.md)
+- [image-workflow-best-solution.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-workflow-best-solution.md)
+- [image-subscene-planning.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-subscene-planning.md)
 
 ## 人工确认清单
 - [ ] 方向符合品牌调性

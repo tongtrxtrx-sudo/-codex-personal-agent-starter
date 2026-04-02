@@ -5,6 +5,7 @@
 
 ## 适用场景
 - 节日放假通知
+- 开学或首次返园提醒
 - 返园提醒
 - 活动通知
 - 材料征集
@@ -16,6 +17,16 @@
 ## 目标受众
 - 家长群
 - 家长与孩子共同阅读的群消息
+
+## 语料优先级
+1. 先看 [kindergarten-group-style-profile.md](D:/work/myclaw/codex-personal-agent-starter/wechat-style-samples/profile/kindergarten-group-style-profile.md)
+2. 再看 [kindergarten-group-scene-map.md](D:/work/myclaw/codex-personal-agent-starter/wechat-style-samples/profile/kindergarten-group-scene-map.md)
+3. 再看最接近的 `normalized/kindergarten-group` 样本
+4. 最后再用规则和模板补齐缺口
+
+## 场景模板索引
+需要更高拟真度时，优先参考：
+- [copy-kindergarten-template-index.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-kindergarten-template-index.md)
 
 ## 默认口吻
 - 温柔
@@ -65,6 +76,13 @@
 - 如果是群通知，`@所有人` 可作为待确认项而不是默认强制项
 
 ## 最少补问建议
+### 开学或首次返园提醒
+- 开学或返园日期
+- 是否有具体入园时间
+- 需带物品
+- 是否需要写名字、带园服、带床品
+- 是否有特殊情况需要提前沟通
+
 ### 节日或放假通知
 - 放假时间
 - 恢复返园时间
@@ -80,6 +98,12 @@
 - 需要准备什么
 - 带来时间
 - 是否所有人都要准备
+
+## 场景模板使用建议
+- 开学、返园、欢迎新学期优先先选最接近的场景模板，再补物品和时间块
+- 活动类通知优先保时间、地点、准备事项，再补感谢和互动感
+- 材料征集类优先保材料清单和带来时间，不要一上来写成长文
+- 情绪安抚类先共情，再给动作建议
 
 ## 推荐收尾
 - `感谢大家的配合与支持`

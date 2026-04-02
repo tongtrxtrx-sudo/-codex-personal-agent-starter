@@ -104,6 +104,7 @@
 - [copy-social-platform-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-social-platform-rules.md)
 - [copy-work-scene-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-work-scene-rules.md)
 - [copy-kindergarten-group-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-kindergarten-group-rules.md)
+- [copy-kindergarten-template-index.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-kindergarten-template-index.md)
 - [copy-channel-required-fields.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-channel-required-fields.md)
 - [copy-channel-length-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-channel-length-rules.md)
 - [copy-title-templates.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/copy/copy-title-templates.md)

@@ -34,7 +34,10 @@ Always return these 4 parts in order:
 3. Use [image-direction-template.md](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-prompt-generator/assets/image-direction-template.md) for direction output.
 4. Use [brand-review-checklist.md](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/brand-checker/assets/brand-review-checklist.md) for review.
 5. Enforce [image-brief-required-fields.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-brief-required-fields.md) and [image-direction-quality-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-direction-quality-rules.md).
-6. Keep final direction choice and brand-sensitive decisions for human confirmation.
+6. If required visual brief fields are missing, ask one concise follow-up before generating directions. Prefer a compact fill-in scaffold the user can reply to directly, following [image-minimal-intake.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-minimal-intake.md).
+7. Keep final direction choice and brand-sensitive decisions for human confirmation.
+8. If actual image generation is needed after a direction is chosen and no API path is available, prepare a ChatGPT-ready handoff following [image-chatgpt-pro-manual-flow.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-chatgpt-pro-manual-flow.md).
+9. If API-based generation is needed later, continue with [image-executor](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-executor/SKILL.md) and review the outputs with [image-result-reviewer](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-result-reviewer/SKILL.md).
 
 # Example Invocation
 `显式使用 $image-workflow。按图片 workflow 处理下面需求，输出 visual brief、3个视觉方向、brand review、待确认项。`

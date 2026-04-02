@@ -1,0 +1,53 @@
+{
+  "scene_type": "幼儿园家长群通知",
+  "platforms": [
+    "微信群"
+  ],
+  "campaign_name": "小班 9 月 1 日开学通知",
+  "campaign_type": "开学 / 首次返园提醒",
+  "content_topic": "小班开学提醒与入园物品准备",
+  "content_goal": "产出像老师真实在群里发的开学通知",
+  "core_message": "9 月 1 日正式开学，提醒家长提前调整作息并准备入园物品",
+  "persona": "幼儿园小班老师",
+  "date_range": "9 月 1 日",
+  "deadline": "开学前准备好入园物品",
+  "price": null,
+  "audience": [
+    "小班家长群"
+  ],
+  "core_selling_points": [
+    "时间提醒清楚",
+    "物品清单完整但不过度写死",
+    "口吻像老师真实群消息"
+  ],
+  "tone": [
+    "温柔",
+    "亲近",
+    "带一点微信群聊天感",
+    "教师口吻"
+  ],
+  "must_include": {
+    "price": null,
+    "deadline": "开学前准备好入园物品",
+    "contact": "如有特殊情况请提前和老师沟通",
+    "location": "家长群",
+    "cta": "提前调整作息，准备物品并做好姓名标记"
+  },
+  "forbidden": [
+    "学校公文腔",
+    "特此通知",
+    "请严格遵照执行"
+  ],
+  "channels": [
+    "wechat_group_notice"
+  ],
+  "notes": "这是幼儿园家长群通知，优先像老师真实在群里发的消息，不要写成行政通知。",
+  "length_preference": "90 到 160 字主版本，可略长以换取真实口吻",
+  "cta_level": "温和提醒",
+  "missing_info": [
+    "具体入园时间",
+    "是否需要 @所有人",
+    "是否有园服、床品、名字贴等固定要求",
+    "班级名称和老师署名"
+  ]
+}

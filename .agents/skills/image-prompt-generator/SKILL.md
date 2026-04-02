@@ -43,7 +43,7 @@ Return for each direction:
 
 # Suggested Template
 Use [image-direction-template.md](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-prompt-generator/assets/image-direction-template.md) to keep direction outputs stable.
-Also consult [image-brief-required-fields.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-brief-required-fields.md) and [image-direction-quality-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-direction-quality-rules.md).
+Also consult [image-brief-required-fields.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-brief-required-fields.md), [image-direction-quality-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-direction-quality-rules.md), and [image-prompt-pattern-library.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-prompt-pattern-library.md).
 
 # Risk Boundaries
 - do not promise final design quality from prompt text alone
