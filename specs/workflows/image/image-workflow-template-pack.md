@@ -11,8 +11,9 @@
 5. [image-brief-required-fields.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-brief-required-fields.md)
 6. [image-direction-quality-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-direction-quality-rules.md)
 7. [image-prompt-pattern-library.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-prompt-pattern-library.md)
-8. [generation-config-template.json](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-executor/assets/generation-config-template.json)
-9. [image-result-review-template.md](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-result-reviewer/assets/image-result-review-template.md)
+8. [image-role-key-visual-template.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-role-key-visual-template.md)
+9. [generation-config-template.json](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-executor/assets/generation-config-template.json)
+10. [image-result-review-template.md](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-result-reviewer/assets/image-result-review-template.md)
 
 ## 推荐使用顺序
 ### 第一步：整理视觉 Brief
@@ -24,6 +25,7 @@
 - 用 `image-direction-template.md` 输出 3 个可比较方向
 - 输出前先看必保留字段表
 - 如果 prompt 写法不稳，再看 `image-prompt-pattern-library.md`
+- 如果任务属于角色图，优先参考 `image-role-key-visual-template.md`
 - 输出后再对照质量规则自检
 
 ### 第三步：做品牌审校
@@ -47,3 +49,7 @@
 - 行业化视觉示例
 - 常见负向提示词库
 - 版式占位建议
+
+## 全量子场景模板入口
+当前全部子场景模板统一入口：
+- [image-subscene-template-index.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-subscene-template-index.md)

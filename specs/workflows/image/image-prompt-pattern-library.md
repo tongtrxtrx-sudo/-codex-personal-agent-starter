@@ -39,6 +39,9 @@
 
 ### 1. 角色主视觉
 
+正式子场景模板：
+- [image-role-key-visual-template.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-role-key-visual-template.md)
+
 适合：
 - 动漫角色
 - 原创人物

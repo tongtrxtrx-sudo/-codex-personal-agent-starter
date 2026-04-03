@@ -78,6 +78,8 @@
   - 角色图 prompt 骨架
   - 角色图风险压制词
   - 二轮“主体加强”模板
+- 已有模板：
+  - [image-role-key-visual-template.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-role-key-visual-template.md)
 
 #### 4. `reference_edit`
 - 来源类别：
@@ -244,8 +246,8 @@
 4. 示例目录后续按子场景补齐。
 
 ## 当前建议执行动作
-1. 先把 `role_key_visual` 做成第一个正式子场景模板
-2. 再补 `portrait_realistic`
+1. 已完成 `role_key_visual` 正式子场景模板
+2. 下一步补 `portrait_realistic`
 3. 然后补 `reference_edit`
 
 ## 判断标准
@@ -255,3 +257,7 @@
 - 有 negative prompt 词库或风险压制规则
 - 有至少 2 个真实案例
 - 有清晰的人工确认项
+
+## 已完成模板入口
+当前全部子场景模板已落成，统一入口见：
+- [image-subscene-template-index.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-subscene-template-index.md)
