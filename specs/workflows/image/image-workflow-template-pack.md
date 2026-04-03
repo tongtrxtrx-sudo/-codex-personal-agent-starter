@@ -12,8 +12,16 @@
 6. [image-direction-quality-rules.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-direction-quality-rules.md)
 7. [image-prompt-pattern-library.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-prompt-pattern-library.md)
 8. [image-role-key-visual-template.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-role-key-visual-template.md)
-9. [generation-config-template.json](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-executor/assets/generation-config-template.json)
-10. [image-result-review-template.md](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-result-reviewer/assets/image-result-review-template.md)
+9. [image-reference-to-template-template.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-reference-to-template-template.md)
+10. [generation-config-template.json](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-executor/assets/generation-config-template.json)
+11. [image-result-review-template.md](D:/work/myclaw/codex-personal-agent-starter/.agents/skills/image-result-reviewer/assets/image-result-review-template.md)
+
+## 官方对齐基线
+这套模板包已经按 OpenAI 官方图片指南做了 4 个统一约束：
+- 生成 prompt 默认使用 `scene -> subject -> key details -> constraints`
+- 编辑 prompt 默认使用 `change only / keep exactly the same`
+- 海报类任务默认支持 `精确图中文字 + 排版约束`
+- 二轮迭代优先做小步修改，不用整段重写
 
 ## 推荐使用顺序
 ### 第一步：整理视觉 Brief

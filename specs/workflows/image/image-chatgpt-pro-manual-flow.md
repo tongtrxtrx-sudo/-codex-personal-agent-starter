@@ -71,6 +71,41 @@ ChatGPT Pro 负责：
 {{must_keep_constraints}}
 ```
 
+## 更适合复制的最终交付卡片
+
+如果你只是想快速复制给 ChatGPT，优先给下面这 3 段，不要把所有中间分析都贴进去：
+
+```text
+主 Prompt：
+{{main_prompt}}
+
+Negative Prompt：
+{{negative_prompt}}
+
+二轮微调 Prompt：
+{{iteration_prompt}}
+```
+
+如果是带图中文字的海报，再补：
+
+```text
+图中文字：
+"{{exact_text}}"
+
+排版要求：
+{{typography_and_layout_constraints}}
+```
+
+如果是改图，再补：
+
+```text
+只改：
+{{change_only}}
+
+保持不变：
+{{keep_exactly_the_same}}
+```
+
 ## 第二轮修改建议
 如果第一轮图不满意，不要只说“重来一张”。
 优先这样改：
@@ -93,6 +128,7 @@ ChatGPT Pro 负责：
 即使是手动出图，也建议在仓库里记录：
 - 选定方向
 - 最终交给 ChatGPT 的 prompt
+- 最终交给 ChatGPT 的 negative prompt
 - 主要改图指令
 - 选中的结果截图或文件路径
 - 为什么采用这张图

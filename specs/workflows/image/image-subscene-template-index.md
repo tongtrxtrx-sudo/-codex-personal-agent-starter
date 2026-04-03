@@ -10,6 +10,7 @@
 - [image-poster-kv-template.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-poster-kv-template.md)
 - [image-role-key-visual-template.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-role-key-visual-template.md)
 - [image-reference-edit-template.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-reference-edit-template.md)
+- [image-reference-to-template-template.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-reference-to-template-template.md)
 
 ### P1 - 第二优先级
 - [image-creative-concept-template.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-creative-concept-template.md)
@@ -30,4 +31,5 @@
 - 海报或品牌主视觉：先看 `poster_kv`
 - 动漫、Q版、IP 启发图：先看 `role_key_visual`
 - 参考图改造：先看 `reference_edit`
+- 看图反推模板：先看 `reference_to_template`
 - 概念脑洞图：先看 `creative_concept`

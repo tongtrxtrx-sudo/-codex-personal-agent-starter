@@ -8,6 +8,7 @@
 - 招生海报
 - 社媒封面图
 - 宣传图片方向探索
+- 参考图反推 prompt 模板
 
 详细子场景规划见：
 - [image-subscene-planning.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-subscene-planning.md)
@@ -90,6 +91,7 @@
 - [image-execution.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-execution.md)
 - [image-workflow-best-solution.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-workflow-best-solution.md)
 - [image-subscene-planning.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-subscene-planning.md)
+- [image-subscene-template-index.md](D:/work/myclaw/codex-personal-agent-starter/specs/workflows/image/image-subscene-template-index.md)
 
 ## 人工确认清单
 - [ ] 方向符合品牌调性

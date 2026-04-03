@@ -100,9 +100,31 @@
   - “保持不变”字段
   - 结果复审清单
 
+#### 5. `reference_to_template`
+- 来源类别：
+  - `05_人物肖像与写实摄影`
+  - `03_创意广告品牌设计`
+  - `07_艺术插画创意风格`
+- 适用任务：
+  - 给一张图反推出可复用模板
+  - 从参考图提炼风格骨架
+  - 从优秀图片总结 negative prompt 风险
+  - 给 ChatGPT Pro 复刻相似质感
+- 关键输入：
+  - 参考图是什么
+  - 想复用哪类感觉
+  - 必须保留什么
+  - 哪些允许变化
+  - 最终用途
+- 输出重点：
+  - 参考图拆解后的 prompt 模板
+  - 风险压制词
+  - 相似图生成模板
+  - 二轮微调模板
+
 ### P1 - 第二优先级
 
-#### 5. `creative_concept`
+#### 6. `creative_concept`
 - 来源类别：
   - `04_创意脑洞特效合成`
   - `07_艺术插画创意风格`
@@ -119,7 +141,7 @@
   - 强 negative prompt
   - brand review 加严
 
-#### 6. `product_visual`
+#### 7. `product_visual`
 - 来源类别：
   - `02_电商产品虚拟摄影`
   - `03_创意广告品牌设计`
@@ -133,7 +155,7 @@
   - 产品细节和材质控制
   - 白底 / 棚拍 / 广告风分支
 
-#### 7. `storyboard_keyframes`
+#### 8. `storyboard_keyframes`
 - 来源类别：
   - `09_故事分镜角色设定`
 - 适用任务：
@@ -147,7 +169,7 @@
 
 ### P2 - 第三优先级
 
-#### 8. `info_visual`
+#### 9. `info_visual`
 - 来源类别：
   - `06_图文排版视觉传达`
   - `08_图像分析信息拆解`
@@ -160,7 +182,7 @@
   - 信息层级
   - 版面留白
 
-#### 9. `environment_visual`
+#### 10. `environment_visual`
 - 来源类别：
   - `15_特定场景环境生成`
 - 适用任务：
@@ -173,20 +195,20 @@
 
 ### P3 - 暂缓
 
-#### 10. `social_cover`
+#### 11. `social_cover`
 - 来源类别：
   - `14_社交媒体营销`
 - 说明：
   - 当前可以先并入 `poster_kv`
   - 后续如果社媒封面量足够，再独立拆出
 
-#### 11. `tryon_preview`
+#### 12. `tryon_preview`
 - 来源类别：
   - `13_虚拟购物试穿试用`
 - 说明：
   - 当前样本量少，暂不优先
 
-#### 12. `meme_sticker`
+#### 13. `meme_sticker`
 - 来源类别：
   - `16_表情包趣味拼图`
 - 说明：
@@ -200,15 +222,16 @@
 2. `poster_kv`
 3. `role_key_visual`
 4. `reference_edit`
+5. `reference_to_template`
 
 ### 第二批
-5. `creative_concept`
-6. `product_visual`
-7. `storyboard_keyframes`
+6. `creative_concept`
+7. `product_visual`
+8. `storyboard_keyframes`
 
 ### 第三批
-8. `info_visual`
-9. `environment_visual`
+9. `info_visual`
+10. `environment_visual`
 
 ## 每个子场景建议补的资产
 
@@ -239,6 +262,13 @@
 - 结果复审模板
 - 2 个真实案例
 
+### `reference_to_template`
+- 看图反推模板补问
+- 参考图拆解结构
+- 相似图 prompt 模板
+- 风险压制词提炼规则
+- 1 到 2 个真实案例
+
 ## 对现有仓库的最小改造建议
 1. 保持当前顶层 `image-workflow` 不变。
 2. 在 `image-minimal-intake.md` 后续扩成“按子场景补问”。
@@ -246,9 +276,10 @@
 4. 示例目录后续按子场景补齐。
 
 ## 当前建议执行动作
-1. 已完成 `role_key_visual` 正式子场景模板
-2. 下一步补 `portrait_realistic`
-3. 然后补 `reference_edit`
+1. 已完成高频子场景正式模板
+2. 已补 `poster_kv` 双案例
+3. 已补 `portrait_realistic`、`role_key_visual`、`reference_edit` 真实案例
+4. 下一步可补 `reference_to_template` 真实案例
 
 ## 判断标准
 当某个子场景至少满足以下条件时，才算真正落地：
